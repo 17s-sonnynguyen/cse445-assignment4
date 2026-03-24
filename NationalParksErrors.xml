@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/17s-sonnynguyen/cse445-assignment4/main/NationalParks.xsd">
+               xsi:noNamespaceSchemaLocation="https://17s-sonnynguyen.github.io/cse445-assignment4/NationalParks.xsd"
 
   <!-- ERROR 1: Root element is NationalPark instead of NationalParks -->
 
