@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
   <xs:element name="NationalParks">
     <xs:complexType>
       <xs:sequence>
@@ -8,7 +8,7 @@
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Name" type="xs:string"/>
-              <xs:element name="Phone" type="xs:string" maxOccurs="unbounded"/>
+              <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
               <xs:element name="Address">
                 <xs:complexType>
                   <xs:sequence>
@@ -28,5 +28,4 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-
 </xs:schema>
